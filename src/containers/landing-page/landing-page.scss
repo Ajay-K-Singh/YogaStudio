@@ -1,0 +1,33 @@
+.quotes {
+  text-align: center;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  p {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.services {
+  position: fixed;
+}
+
+video {
+  position: relative;
+  z-index: -100;
+  width: 100%;
+}
+
+#stickymenu {
+  position:sticky;
+  top: 0;
+}
