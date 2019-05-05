@@ -35,19 +35,6 @@ class LandingPage extends Component {
 
   componentWillUnmount() {
     window.removeEventListener('scroll', this.setNextComponent);
-    let stickymenu = document.getElementById("stickymenu");
-    let stickymenuoffset = stickymenu.offsetTop
-    window.addEventListener("scroll", function(e){
-      requestAnimationFrame(function(){
-          if (window.pageYOffset > stickymenuoffset){
-              stickymenu.classList.add('sticky')
-          }
-          else{
-              stickymenu.classList.remove('sticky')
-          }
-      })
-   })
-  
   }
 
   getQuote() {
